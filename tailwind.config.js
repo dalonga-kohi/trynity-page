@@ -11,6 +11,10 @@ module.exports = {
         blue: "#66FCF1",
         white: "#C5C6C7",
       },
+      fontFamily: {
+        'display': ['Montserrat'],
+        'body': ['Roboto'],
+      }
     },
   },
   plugins: [],
