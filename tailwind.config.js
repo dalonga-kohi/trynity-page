@@ -12,9 +12,9 @@ module.exports = {
         white: "#C5C6C7",
       },
       fontFamily: {
-        'display': ['Montserrat'],
-        'body': ['Roboto'],
-      }
+        display: ["Montserrat"],
+        body: ["Roboto"],
+      },
     },
   },
   plugins: [],

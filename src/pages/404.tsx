@@ -11,7 +11,7 @@ const NotFoundPage = () => (
 )
 
 export const Head = () => {
-  <SEO title="Nie Znaleziono"/>
+  ;<SEO title="Nie Znaleziono" />
 }
 
 export default NotFoundPage
