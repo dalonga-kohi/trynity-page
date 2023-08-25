@@ -1,6 +1,7 @@
 import * as React from "react"
 
 import MainLayout from "../layouts/MainLayout"
+import SEO from "../components/SEO/seo"
 
 const NotFoundPage = () => (
   <MainLayout>
@@ -10,7 +11,7 @@ const NotFoundPage = () => (
 )
 
 export const Head = () => {
-  ;<></>
+  <SEO title="Nie Znaleziono"/>
 }
 
 export default NotFoundPage
