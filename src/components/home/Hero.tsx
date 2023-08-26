@@ -1,7 +1,23 @@
 import * as React from "react"
 import Button from "../interface/Button"
+import ScrollToPlugin from "gsap/ScrollToPlugin"
+import { gsap } from "gsap"
+import useIsBrowser from "../../hooks/useIsBrowser"
+
+gsap.registerPlugin(ScrollToPlugin)
 
 const Hero = () => {
+  let scrollHandler = (): any => false
+
+  if (useIsBrowser()) {
+    scrollHandler = () => {
+      gsap.to(window, {
+        duration: 0.7,
+        scrollTo: "#content",
+      })
+    }
+  }
+
   return (
     <article className="wrapper items-baseline">
       <h1 className="mb-8">
@@ -12,7 +28,10 @@ const Hero = () => {
         pharetra augue. Sed et imperdiet mi, sit amet euismod nisi. Nullam
         euismod ante eu congue sagittis.
       </p>
-      <Button dest="">Zobacz Więcej</Button>
+      <Button dest="" click={scrollHandler.bind(this)}>
+        Zobacz Więcej
+      </Button>
+      <div id="content" />
     </article>
   )
 }
