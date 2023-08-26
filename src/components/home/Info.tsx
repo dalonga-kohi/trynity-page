@@ -11,15 +11,14 @@ const Info = () => {
       <StaticImage
         src="../../images/lion.png"
         alt="lew w garniturze"
-        className="rounded-xl shadow-md mt-8"
+        className="rounded-xl shadow-md mt-8 max-w-xs sm:max-w-md"
         loading="lazy"
-        width={350}
       />
-      <div className="flex w-full justify-center mt-8">
-        <div className="text-3xl font-bold flex flex-col items-center text-blue mr-10">
+      <div className="flex w-full justify-center mt-8 mb-24">
+        <div className="text-3xl font-black flex flex-col items-center text-blue mr-10">
           3+<p className="text-base">Certyfikatów</p>
         </div>
-        <div className="text-3xl font-bold flex flex-col items-center text-blue">
+        <div className="text-3xl font-black flex flex-col items-center text-blue">
           10+<p className="text-base">Kampanii</p>
         </div>
       </div>

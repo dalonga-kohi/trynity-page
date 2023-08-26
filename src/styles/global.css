@@ -13,11 +13,18 @@
     margin: 0;
     padding: 0;
   }
+  h1 {
+    @apply text-blue;
+    @apply font-display;
+    @apply font-extrabold;
+    @apply text-4xl;
+  }
   h2 {
     @apply text-4xl;
     @apply font-extrabold;
     @apply font-display;
     @apply text-blue;
+    @apply text-center;
   }
   p {
     @apply text-white;
@@ -30,7 +37,7 @@
 @layer components {
   .wrapper {
     @apply flex;
-    @apply h-screen;
+    @apply min-h-screen;
     @apply justify-center;
     @apply flex-col;
     @apply px-8;

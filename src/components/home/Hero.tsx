@@ -4,7 +4,7 @@ import Button from "../interface/Button"
 const Hero = () => {
   return (
     <article className="wrapper items-baseline">
-      <h1 className="text-blue font-display font-extrabold text-4xl mb-8">
+      <h1 className="mb-8">
         Osiągnij Sukces Twojej Marki Dzięki Promocji W sieci
       </h1>
       <p className="text-base mb-12">
