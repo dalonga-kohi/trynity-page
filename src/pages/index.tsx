@@ -5,6 +5,7 @@ import SEO from "../components/SEO/seo"
 import Hero from "../components/home/Hero"
 import Info from "../components/home/Info"
 import Cards from "../components/home/Cards"
+import Portfolio from "../components/home/Portfolio"
 
 const IndexPage = () => {
   return (
@@ -12,6 +13,7 @@ const IndexPage = () => {
       <Hero />
       <Info />
       <Cards />
+      <Portfolio />
     </MainLayout>
   )
 }

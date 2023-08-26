@@ -4,7 +4,7 @@ import { faPhotoFilm } from "@fortawesome/free-solid-svg-icons"
 
 const Cards = () => {
   return (
-    <section className="wrapper items-center justify-start">
+    <section className="wrapper items-center justify-start lg:justify-center">
       <h2 className="mb-6">Nasza Oferta</h2>
       <div className="flex flex-col lg:flex-row">
         <SingleCard icon={faPhotoFilm} title="Kampania Reklamowa">

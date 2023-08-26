@@ -3,7 +3,7 @@ import * as React from "react"
 
 const Info = () => {
   return (
-    <article className="wrapper items-center justify-start">
+    <article className="wrapper items-center justify-start lg:justify-center">
       <h2>Rośnij Z Nami</h2>
       <p className="text-center text-xl mt-4">
         Wkrocz Na Zupełnie Nowy Poziom Marketingu

@@ -15,7 +15,7 @@ const NavBar = () => {
         <StaticImage
           src="../../images/logo.svg"
           alt="logo"
-          width={50}
+          width={30}
           className="mr-2"
         />
         TRYNITY
