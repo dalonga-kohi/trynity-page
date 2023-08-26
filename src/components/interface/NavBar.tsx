@@ -7,7 +7,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const NavBar = () => {
   return (
-    <nav className="flex items-center justify-between fixed top-0 w-screen px-10 py-5 bg-violet shadow-md">
+    <nav className="z-50 flex items-center justify-between fixed top-0 w-screen pl-8 pr-10 py-4 bg-violet shadow-md">
       <Link
         to="/"
         className="font-display text-center font-extrabold text-white text-2xl flex justify-center items-center"

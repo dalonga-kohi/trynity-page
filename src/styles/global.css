@@ -22,6 +22,8 @@
   p {
     @apply text-white;
     @apply font-body;
+    @apply font-normal;
+    line-height: 1.25rem !important;
   }
 }
 
